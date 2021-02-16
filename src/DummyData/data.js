@@ -1,27 +1,21 @@
-import img1A from "../img/img4.jpg";
-import img1B from "../img/img2.jpg";
-import img1C from "../img/img3.jpg"; 
-import img1D from "../img/img4.jpg"; 
-import img1E from "../img/img5.jpg"; 
-import img1F from "../img/img6.jpg"; 
+import img1A from "../img/img1.jpg";
+import img1B from "../img/img1.jpg";
+import img1C from "../img/img1.jpg";
+import img1D from "../img/img1.jpg";
+import img1E from "../img/img1.jpg";
+import img1F from "../img/img1.jpg";
 import img2 from "../img/img1.jpg";
 import img3 from "../img/img1.jpg";
 import img4 from "../img/img1.jpg";
 const data = [
     {
         userId: "daofidjsifjioadfoidasiofajso",
-        publisher: {
-            publisherId: "sajfodajfdsfadofjaodifaio",
-            publisherName: "Gradi",
-            publisherCity: "Atlanta",
-            publisherState: "GA",
-        },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
-        postStatus: "Pending",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
+        postStatus: "sold",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Lithonia",
@@ -48,10 +42,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
         postStatus: "Sold",
         postPrice: 567834,
-        postType: "Single Home",
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Morning",
@@ -78,10 +72,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfaadfadfdsfffdsf",
         filterKey: "all",
-        postTitle: "Bell Air",
-        postStatus: "Contengent",
-        postPrice: 10000000000,
-        postType: "condo",
+        postTitle: "Fiberabbit Sweatshirt",
+        postStatus: "backordered",
+        postPrice: 500,
+        postType: "short",
         address: {
             postState: "GA",
             postCity: "Lithonia",
@@ -108,10 +102,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
-        postStatus: "Pending",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
+        postStatus: "sold",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Lithonia",
@@ -138,10 +132,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
-        postStatus: "Pending",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
+        postStatus: "sold",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Lithonia",
@@ -168,10 +162,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
-        postStatus: "Pending",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
+        postStatus: "sold",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Lithonia",
@@ -198,10 +192,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
         postStatus: "Sold",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Flowery Branch",
@@ -228,10 +222,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
-        postStatus: "Pending",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
+        postStatus: "sold",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Lithonia",
@@ -258,10 +252,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
-        postStatus: "Pending",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
+        postStatus: "sold",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Lithonia",
@@ -288,10 +282,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
-        postStatus: "Pending",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
+        postStatus: "sold",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Lithonia",
@@ -318,10 +312,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
-        postStatus: "Pending",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
+        postStatus: "sold",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Lithonia",
@@ -348,10 +342,10 @@ const data = [
         },
         postId: "ajdfaoidfjasdfpadfapfajsfjdsi",
         filterKey: "all",
-        postTitle: "Midtown Townhome",
-        postStatus: "Pending",
-        postPrice: 10000000000,
-        postType: "Single Home",
+        postTitle: "Midweight Full-Zip Hooded Sweatshirt",
+        postStatus: "sold",
+        postPrice: 500,
+        postType: "shirt",
         address: {
             postState: "GA",
             postCity: "Lithonia",

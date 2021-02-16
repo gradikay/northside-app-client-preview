@@ -53,10 +53,10 @@ export default function App() {
     }, []);      
 
     // Important user variables
-    const userId = user && user["sub"];
-    const userEmail = user && user["email"];
-    const userFirstName = user && user["given_name"];
-    const userLastName = user && user["family_name"]; 
+    const userId = "000000";
+    const userEmail = "gradi@fiberabbit.com";
+    const userFirstName = "Gradi";
+    const userLastName = "Musa"; 
 
     // Return UI
     return (

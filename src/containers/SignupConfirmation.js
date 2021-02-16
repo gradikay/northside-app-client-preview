@@ -1,8 +1,6 @@
 // This file is exported to ---> src/Routes.js
 // React required
-import React, { useState } from "react";
-// Amplify required
-import { Auth } from "aws-amplify";
+import React, { useState } from "react"; 
 // Components
 import LoaderButton from "../components/LoaderButton";
 // Libs
@@ -35,10 +33,7 @@ export default function SignupConfirmation(props) {
         //setMessage = ""
         setIsLoading(true);
 
-        try {
-
-            await Auth.confirmSignUp(fields.email, fields.confirmationCode);
-
+        try { 
             // Redirect to login
             props.history.push("/login");
 
@@ -53,8 +48,8 @@ export default function SignupConfirmation(props) {
 
                 { /* Header - Start */}
                 <header className="col-sm-12 text-center border-bottom mb-3">
-                    <h1>Larissa</h1>
-                    <p>Thank you for joining Larissa! <span role="img" aria-label="thumbs up">&#128077;</span><span role="img" aria-label="dark skin">&#127998;</span> </p>
+                    <h1>Northside</h1>
+                    <p>Thank you for joining Northside! <span role="img" aria-label="thumbs up">&#128077;</span><span role="img" aria-label="dark skin">&#127998;</span> </p>
                 </header>
                 { /* Header - End */}
 
@@ -107,7 +102,7 @@ export default function SignupConfirmation(props) {
                             disabled={!validateConfirmationForm()}
                         >
                             Verify
-                            </LoaderButton>
+                        </LoaderButton>
                         { /* Submit Button - End */}
 
                     </form>

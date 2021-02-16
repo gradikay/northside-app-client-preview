@@ -1,3 +1,4 @@
+/* Card Style */
 #Dashboard .card .overlay-bottom{
     font-size:1.5rem;
 }
@@ -10,6 +11,8 @@
 #Dashboard .card .card-img-overlay {
     background-color: #00000014;
 }
+
+/* SectionA Style */
 #Dashboard #SectionA a:hover {
     box-shadow: 0 0 0px 6px #07284e;
     display: block;
