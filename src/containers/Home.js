@@ -247,7 +247,7 @@ function SectionB() {
 
 function SectionC() {
     return ( 
-        <section id="SectionC" className="container-fluid row py-5 border-bottom bg-white m-0">
+        <section id="SectionC" className="container-fluid row py-5 border-top bg-white m-0">
 
             {/* Image - End */}
             <div className="col-sm-6 align-self-center py-5">
