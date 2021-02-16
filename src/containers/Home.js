@@ -246,24 +246,25 @@ function SectionB() {
 }
 
 function SectionC() {
-    return (
-        <section id="SectionC" className="container-fluid border-top row bg-white m-0" >
+    return ( 
+        <section id="SectionC" className="container-fluid row py-5 border-bottom bg-white m-0">
 
-            {/* Background Image - Start */}
-            <div className="col-sm-5 mx-5" style={{ backgroundImage: `url(${img5})`, height: "calc(100vh)", backgroundRepeat: "no-repeat", backgroundSize: "contain", backgroundPositionY: "center" , backgroundPositionX: "center" }}>
+            {/* Image - End */}
+            <div className="col-sm-6 align-self-center py-5">
+                <img className="rounded shadow-lg" src={img5} />
             </div>
-            {/* Background Image - End */}
+            {/* Image - End */}
 
-            {/* Description - Start */}
-            <div className="col-sm-5 align-self-center">
+            {/* Heading - Start */}
+            <div className="col-sm-4 align-self-center">
                 <h2><small>INTRODUCING</small></h2>
                 <h3 style={{ fontSize: "3.2rem" }}>NORTHSIDE</h3>
-                <h2><small>UNLISH YOUR CREATIVITY AND BUILD APPLICATION FAST</small></h2>
-                <button type="button" className="btn btn-outline-dark rounded-0 mt-4">NOW HERE</button>
+                <h2><small>BUILD SERVERLESS APPLICATION ON THE GO!</small></h2>
+                <button type="button" className="btn btn-outline-dark rounded-0 mt-4">HERE NOW</button>
 
             </div>
-            {/* Description - End */}
+            {/* Heading - End */}
 
-        </section>
+        </section> 
         );
 }
